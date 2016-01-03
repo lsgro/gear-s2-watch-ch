@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="com.luigisgro.anotherwatch" version="1.0.0">
+    <profile name="wearable"/>
+    <watch-application ambient-support="true" appid="com.luigisgro.anotherwatch" exec="anotherwatch">
+        <label>anotherwatch</label>
+        <icon>icon.png</icon>
+    </watch-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/alarm.set</privilege>
+    </privileges>
+</manifest>
